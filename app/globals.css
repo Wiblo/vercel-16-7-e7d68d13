@@ -61,20 +61,20 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.28 0 0); /* charcoal */
 
-  /* Primary brand color - vibrant blue */
-  --primary: oklch(0.55 0.18 250); /* vibrant blue */
-  --primary-foreground: oklch(0.99 0 0); /* white text on blue */
+  /* Primary brand color - vibrant purple */
+  --primary: oklch(0.55 0.20 290); /* vibrant purple */
+  --primary-foreground: oklch(0.99 0 0); /* white text on purple */
 
-  /* Secondary colors - light yellow for backgrounds */
-  --secondary: oklch(0.92 0.10 95); /* light yellow for subtle backgrounds */
+  /* Secondary colors - light purple for backgrounds */
+  --secondary: oklch(0.90 0.08 290); /* light purple for subtle backgrounds */
   --secondary-foreground: oklch(0.28 0 0); /* charcoal text */
 
   /* Muted colors - light backgrounds and warm-gray secondary text */
-  --muted: oklch(0.92 0.08 95); /* light yellow for muted backgrounds */
+  --muted: oklch(0.90 0.06 290); /* light purple for muted backgrounds */
   --muted-foreground: oklch(0.48 0 0); /* warm-gray #6B6B6B for secondary text */
 
-  /* Accent colors - bright yellow accents */
-  --accent: oklch(0.85 0.15 100); /* bright yellow accent */
+  /* Accent colors - lavender accents */
+  --accent: oklch(0.75 0.15 300); /* lavender accent */
   --accent-foreground: oklch(0.28 0 0); /* charcoal */
 
   /* Destructive colors */
@@ -84,27 +84,27 @@
   /* Border and input colors */
   --border: oklch(0.90 0 0); /* neutral light gray for borders */
   --input: oklch(0.90 0 0); /* neutral light gray */
-  --ring: oklch(0.55 0.18 250); /* blue for focus rings */
+  --ring: oklch(0.55 0.20 290); /* purple for focus rings */
 
-  /* Chart colors - blue and yellow themed */
-  --chart-1: oklch(0.55 0.18 250); /* Vibrant blue */
-  --chart-2: oklch(0.80 0.15 95); /* Bright yellow */
-  --chart-3: oklch(0.45 0.18 250); /* Deep blue */
-  --chart-4: oklch(0.85 0.12 100); /* Golden yellow */
-  --chart-5: oklch(0.65 0.18 260); /* Light blue */
+  /* Chart colors - purple themed */
+  --chart-1: oklch(0.55 0.20 290); /* Vibrant purple */
+  --chart-2: oklch(0.70 0.18 310); /* Bright magenta */
+  --chart-3: oklch(0.45 0.20 280); /* Deep purple */
+  --chart-4: oklch(0.75 0.15 300); /* Lavender */
+  --chart-5: oklch(0.65 0.18 270); /* Violet */
 
-  /* Sidebar colors - blue and yellow themed */
+  /* Sidebar colors - purple themed */
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.55 0.18 250); /* Vibrant blue */
+  --sidebar-primary: oklch(0.55 0.20 290); /* Vibrant purple */
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.92 0.08 95); /* Light yellow accent */
+  --sidebar-accent: oklch(0.92 0.06 290); /* Light purple accent */
   --sidebar-accent-foreground: oklch(0.25 0 0);
-  --sidebar-border: oklch(0.90 0.02 95); /* Light yellow border */
-  --sidebar-ring: oklch(0.55 0.18 250); /* Blue ring */
+  --sidebar-border: oklch(0.90 0.02 290); /* Light purple border */
+  --sidebar-ring: oklch(0.55 0.20 290); /* Purple ring */
 
-  /* Custom color for primary hover state - darker blue */
-  --primary-hover: oklch(0.45 0.18 250);
+  /* Custom color for primary hover state - darker purple */
+  --primary-hover: oklch(0.45 0.20 290);
 }
 
 .dark {
@@ -114,31 +114,31 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.65 0.18 250); /* Bright blue for dark mode */
+  --primary: oklch(0.65 0.20 290); /* Bright purple for dark mode */
   --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.35 0.10 95); /* Dark yellow for backgrounds */
+  --secondary: oklch(0.35 0.10 290); /* Dark purple for backgrounds */
   --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.30 0.08 95); /* Dark muted yellow */
+  --muted: oklch(0.30 0.08 290); /* Dark muted purple */
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.75 0.15 95); /* Bright yellow accent for dark mode */
+  --accent: oklch(0.75 0.15 300); /* Bright lavender accent for dark mode */
   --accent-foreground: oklch(0.145 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.65 0.18 250); /* Blue ring */
-  --chart-1: oklch(0.65 0.18 250); /* Bright blue */
-  --chart-2: oklch(0.80 0.15 95); /* Bright yellow */
-  --chart-3: oklch(0.50 0.18 250); /* Medium blue */
-  --chart-4: oklch(0.85 0.12 100); /* Golden yellow */
-  --chart-5: oklch(0.70 0.18 260); /* Light blue */
+  --ring: oklch(0.65 0.20 290); /* Purple ring */
+  --chart-1: oklch(0.65 0.20 290); /* Bright purple */
+  --chart-2: oklch(0.75 0.18 310); /* Bright magenta */
+  --chart-3: oklch(0.55 0.20 280); /* Medium purple */
+  --chart-4: oklch(0.80 0.15 300); /* Lavender */
+  --chart-5: oklch(0.70 0.18 270); /* Violet */
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.65 0.18 250); /* Bright blue */
+  --sidebar-primary: oklch(0.65 0.20 290); /* Bright purple */
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.35 0.10 95); /* Dark yellow accent */
+  --sidebar-accent: oklch(0.35 0.10 290); /* Dark purple accent */
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.65 0.18 250); /* Blue ring */
+  --sidebar-ring: oklch(0.65 0.20 290); /* Purple ring */
 }
 
 @layer base {
@@ -218,17 +218,17 @@
     max-width: 50rem;
   }
 
-  /* Blue and yellow color utilities for text */
-  .text-blue {
-    color: oklch(0.55 0.18 250); /* Vibrant blue */
+  /* Purple color utilities for text */
+  .text-purple {
+    color: oklch(0.55 0.20 290); /* Vibrant purple */
   }
-  .text-blue-dark {
-    color: oklch(0.45 0.18 250); /* Darker blue */
+  .text-purple-dark {
+    color: oklch(0.45 0.20 290); /* Darker purple */
   }
-  .text-yellow {
-    color: oklch(0.80 0.15 95); /* Bright yellow */
+  .text-lavender {
+    color: oklch(0.75 0.15 300); /* Lavender */
   }
-  .text-yellow-golden {
-    color: oklch(0.75 0.12 100); /* Golden yellow */
+  .text-magenta {
+    color: oklch(0.70 0.18 310); /* Bright magenta */
   }
 }
